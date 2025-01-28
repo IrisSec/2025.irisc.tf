@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   User : IrisCTF 2025 - CTF fun for hackers of all skill levels
+  </title>
+  <meta content="A fun, lighthearted, and educational 48-hour online CTF aimed towards hackers of all levels." name="description"/>
+  <meta content="" name="author"/>
+  <meta content="/static/img/favicon.png" property="og:image">
+   <link href="/static/img/favicon.png" rel="icon" type="image/png"/>
+   <!-- CSS -->
+   <link href="/static/ctfx.css-v-1.3.0.css" rel="stylesheet"/>
+  </meta>
+ </head>
+ <body>
+  <div id="navbar">
+   <a href="/">
+    <img id="navbar-logo" src="/static/img/logo_navbar.png"/>
+   </a>
+   <div id="navbar-buttons">
+    <a href="/home.html">
+     Home
+    </a>
+    <a href="/challenges.html">
+     Challenges
+    </a>
+    <a href="/scoreboard.html">
+     Scoreboard
+    </a>
+    <a href="/profile.html">
+    </a>
+    <form action="/api" method="post">
+    </form>
+   </div>
+  </div>
+  <a href="/news.html">
+   <div id="news-bar">
+    News (click for archive)
+   </div>
+  </a>
+  <div id="body-content">
+   <div style="display:flex; margin-bottom: 16px">
+    <img src="https://www.gravatar.com/avatar/b108d6188df89a92ffacaa92472b8a27?s=256&amp;d=mp">
+     <div style="margin-left:16px">
+      <div class="pre-category-name">
+       Team:
+      </div>
+      <div class="category-name">
+       valgrind
+      </div>
+      <div style="display:flex">
+       <div class="tag tag-inline" style="margin-right:8px">
+        <img src="/static/img/flags/us.png" style="width:20px; height:20px; margin-right:8px"/>
+        <b>
+         United States
+        </b>
+       </div>
+       <div class="tag tag-inline">
+        <b>
+         5906 Points
+        </b>
+       </div>
+      </div>
+     </div>
+    </img>
+   </div>
+   <div class="section-header">
+    <div class="decorator-square-container" style="transform: rotate(0deg)">
+     <div class="decorator-square-component" style="background-color:#009927">
+     </div>
+     <div class="decorator-square-component title-decorator-gray">
+     </div>
+     <div class="decorator-square-component decorator-square-icon" style="background-image: url('/static/img/icons/arrow.png');background-size: 16px;">
+     </div>
+    </div>
+    Solved challenges
+   </div>
+   <table>
+    <thead>
+     <tr>
+      <th style="flex-basis: 15%;">
+       Category
+      </th>
+      <th style="flex-basis: 50%;">
+       Challenge
+      </th>
+      <th style="flex-basis: 35%;">
+       Solved
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-1.html">
+        Welcome
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-36.html">
+        Sanity Check
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="150">
+         2 Minutes, 30 Seconds after release (solver #42)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 00:02:30 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-1.html">
+        Welcome
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-37.html">
+        Discord
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="109">
+         1 Minute, 49 Seconds after release (solver #38)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 00:01:49 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-1.html">
+        Welcome
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-45.html">
+        Exit Survey
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="1845">
+         30 Minutes, 45 Seconds after release (solver #35)
+        </span>
+        <div class="tooltip-text">
+         05/01/2025 - 06:19:36 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-2.html">
+        Binary Exploitation
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-27.html">
+        MyFiles
+       </a>
+       (442 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="144576">
+         1 Day, 16 Hours after release (solver #31)
+        </span>
+        <div class="tooltip-text">
+         05/01/2025 - 16:09:36 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-2.html">
+        Binary Exploitation
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-39.html">
+        Checksumz
+       </a>
+       (432 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="62768">
+         17 Hours, 26 Minutes after release (solver #21)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 17:26:08 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-2.html">
+        Binary Exploitation
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-41.html">
+        sqlate
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="67891">
+         18 Hours, 51 Minutes after release (solver #121)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 18:51:31 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-3.html">
+        Cryptography
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-11.html">
+        KittyCrypt
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="18394">
+         5 Hours, 6 Minutes after release (solver #49)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 05:06:34 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-3.html">
+        Cryptography
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-17.html">
+        AYES
+       </a>
+       (448 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="65349">
+         18 Hours, 9 Minutes after release (solver #24)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 18:09:09 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-3.html">
+        Cryptography
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-18.html">
+        knutsacque
+       </a>
+       (316 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="29175">
+         8 Hours, 6 Minutes after release (solver #23)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 08:06:15 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-4.html">
+        Forensics
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-3.html">
+        Tracem 1
+       </a>
+       (152 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="73043">
+         20 Hours, 17 Minutes after release (solver #52)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 20:17:23 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-4.html">
+        Forensics
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-4.html">
+        Tracem 2
+       </a>
+       (457 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="159370">
+         1 Day, 20 Hours after release (solver #22)
+        </span>
+        <div class="tooltip-text">
+         05/01/2025 - 20:16:10 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-4.html">
+        Forensics
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-33.html">
+        deldeldel
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="27876">
+         7 Hours, 44 Minutes after release (solver #81)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 07:44:36 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-4.html">
+        Forensics
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-34.html">
+        Windy Day
+       </a>
+       (424 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="71761">
+         19 Hours, 56 Minutes after release (solver #22)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 19:56:01 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-4.html">
+        Forensics
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-38.html">
+        RIP Art
+       </a>
+       (480 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="166894">
+         1 Day, 22 Hours after release (solver #19)
+        </span>
+        <div class="tooltip-text">
+         05/01/2025 - 22:21:34 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-5.html">
+        Miscellaneous
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-20.html">
+        Cobra's Den
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="30853">
+         8 Hours, 34 Minutes after release (solver #25)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 08:34:13 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-5.html">
+        Miscellaneous
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-40.html">
+        O_WRONLY
+       </a>
+       (321 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="75394">
+         20 Hours, 56 Minutes after release (solver #37)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 20:56:34 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-6.html">
+        Networks
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-8.html">
+        No Shark?
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="23654">
+         6 Hours, 34 Minutes after release (solver #54)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 06:34:14 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-6.html">
+        Networks
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-9.html">
+        Inferno Barrier
+       </a>
+       (304 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="77563">
+         21 Hours, 32 Minutes after release (solver #43)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 21:32:43 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-6.html">
+        Networks
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-10.html">
+        Shake My Hand
+       </a>
+       (327 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="159237">
+         1 Day, 20 Hours after release (solver #60)
+        </span>
+        <div class="tooltip-text">
+         05/01/2025 - 20:13:57 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-2.html">
+        fuel deal
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="12014">
+         3 Hours, 20 Minutes after release (solver #6)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 03:20:14 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-29.html">
+        Checking Out of Winter
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="2614">
+         43 Minutes, 34 Seconds after release (solver #16)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 00:43:34 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-30.html">
+        Sleuths and Sweets
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="5078">
+         1 Hour, 24 Minutes after release (solver #16)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 01:24:38 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-31.html">
+        Not Eelaborate
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="6572">
+         1 Hour, 49 Minutes after release (solver #10)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 01:49:32 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-32.html">
+        Late Night Bite
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="8522">
+         2 Hours, 22 Minutes after release (solver #5)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 02:22:02 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-35.html">
+        OSINT DISCLAIMER
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="1929">
+         32 Minutes, 9 Seconds after release (solver #107)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 00:32:09 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-43.html">
+        where's bobby
+       </a>
+       (247 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="32463">
+         9 Hours, 1 Minute after release (solver #35)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 23:13:40 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-7.html">
+        Open-Source Intelligence
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-44.html">
+        where's bobby 2
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="35461">
+         9 Hours, 51 Minutes after release (solver #44)
+        </span>
+        <div class="tooltip-text">
+         05/01/2025 - 00:03:42 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-8.html">
+        Reverse Engineering
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-26.html">
+        Now this will run on my 486?
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="85868">
+         23 Hours, 51 Minutes after release (solver #69)
+        </span>
+        <div class="tooltip-text">
+         05/01/2025 - 00:13:50 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-9.html">
+        Web Exploitation
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-1.html">
+        Political
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="46258">
+         12 Hours, 50 Minutes after release (solver #52)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 12:50:58 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-9.html">
+        Web Exploitation
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-13.html">
+        Password Manager
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="1589">
+         26 Minutes, 29 Seconds after release (solver #21)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 00:26:29 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-9.html">
+        Web Exploitation
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-42.html">
+        Bad Todo
+       </a>
+       (247 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="54572">
+         15 Hours, 9 Minutes after release (solver #33)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 15:09:32 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-10.html">
+        Radio Frequency
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-5.html">
+        dotdotdot
+       </a>
+       (50 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="52448">
+         14 Hours, 34 Minutes after release (solver #69)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 14:34:08 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td style="flex-basis: 15%;">
+       <a href="/challenges-category-10.html">
+        Radio Frequency
+       </a>
+      </td>
+      <td style="flex-basis: 50%;">
+       <a href="/challenge-id-6.html">
+        RFoIP
+       </a>
+       (359 Points)
+      </td>
+      <td style="flex-basis: 35%;">
+       <span class="tooltip" style="">
+        <span time-difference="83148">
+         23 Hours, 5 Minutes after release (solver #29)
+        </span>
+        <div class="tooltip-text">
+         04/01/2025 - 23:05:48 UTC+0
+        </div>
+       </span>
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <div id="footer">
+   <b>
+    Forked from
+    <a href="https://github.com/Milkdrop/CTFx">
+     CTFx
+    </a>
+   </b>
+   v1.3.0, developed by
+   <a href="https://irissec.xyz/">
+    IrisSec
+   </a>
+   .
+   <br/>
+   CTFx by
+   <a href="https://gitlab.com/Milkdrop">
+    Milkdrop
+   </a>
+   , based on
+   <a href="https://github.com/Nakiami/mellivora">
+    Mellivora
+   </a>
+   .
+   <br/>
+   WebGL version developed by
+   <a href="https://github.com/nesrak1">
+    nope
+   </a>
+   .
+   <a href="/redir-choice-wgl.html">
+    Go to WebGL version
+   </a>
+  </div>
+  <!-- JS -->
+  <audio id="audio-typewriter" src="/static/audio/typewriter.mp3">
+  </audio>
+  <audio id="audio-nav-mouseover" src="/static/audio/nav_mouseover.mp3">
+  </audio>
+  <audio id="audio-nav-click" src="/static/audio/nav_click.mp3">
+  </audio>
+  <audio id="audio-btn-dynamic-mouseover" src="/static/audio/btn_dynamic_mouseover.mp3">
+  </audio>
+  <audio id="audio-btn-dynamic-click" src="/static/audio/btn_dynamic_click.mp3">
+  </audio>
+  <audio id="audio-btn-solid-mouseover" src="/static/audio/btn_solid_mouseover.mp3">
+  </audio>
+  <audio id="audio-btn-solid-click" src="/static/audio/btn_solid_click.mp3">
+  </audio>
+  <audio id="audio-checkbox-click" src="/static/audio/checkbox_click.mp3">
+  </audio>
+  <script src="/static/ctfx.js-v-1.3.0.js" type="text/javascript">
+  </script>
+ </body>
+</html>

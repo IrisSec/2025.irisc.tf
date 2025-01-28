@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Challenges : IrisCTF 2025 - CTF fun for hackers of all skill levels
+  </title>
+  <meta content="A fun, lighthearted, and educational 48-hour online CTF aimed towards hackers of all levels." name="description"/>
+  <meta content="" name="author"/>
+  <meta content="/static/img/favicon.png" property="og:image">
+   <link href="/static/img/favicon.png" rel="icon" type="image/png"/>
+   <!-- CSS -->
+   <link href="/static/ctfx.css-v-1.3.0.css" rel="stylesheet"/>
+  </meta>
+ </head>
+ <body>
+  <div id="navbar">
+   <a href="/">
+    <img id="navbar-logo" src="/static/img/logo_navbar.png"/>
+   </a>
+   <div id="navbar-buttons">
+    <a href="/home.html">
+     Home
+    </a>
+    <a class="active" href="/challenges.html">
+     Challenges
+    </a>
+    <a href="/scoreboard.html">
+     Scoreboard
+    </a>
+    <a href="/profile.html">
+    </a>
+    <form action="/api" method="post">
+    </form>
+   </div>
+  </div>
+  <a href="/news.html">
+   <div id="news-bar">
+    News (click for archive)
+   </div>
+  </a>
+  <div id="body-content">
+   <div class="pre-category-name">
+    Challenge category:
+   </div>
+   <div class="category-name typewriter">
+    Open-Source Intelligence
+   </div>
+   <div style="display:flex; flex-wrap:wrap">
+    <div class="decorator-square-container" style="transform: rotate(270deg)">
+     <div class="decorator-square-component" style="background-color:#009927">
+     </div>
+     <div class="decorator-square-component title-decorator-gray">
+     </div>
+     <div class="decorator-square-component decorator-square-icon" style="background-image: url('/static/img/icons/arrow.png');background-size: 16px;filter:invert(1);">
+     </div>
+    </div>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Binary+Exploitation.html" style="margin:0px 8px 8px 0px">
+     Binary Exploitation
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Cryptography.html" style="margin:0px 8px 8px 0px">
+     Cryptography
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Forensics.html" style="margin:0px 8px 8px 0px">
+     Forensics
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Miscellaneous.html" style="margin:0px 8px 8px 0px">
+     Miscellaneous
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Networks.html" style="margin:0px 8px 8px 0px">
+     Networks
+    </a>
+    <a class="btn-solid btn-solid-warning active" href="challenges-category-Open-Source+Intelligence.html" style="margin:0px 8px 8px 0px">
+     Open-Source Intelligence
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Radio+Frequency.html" style="margin:0px 8px 8px 0px">
+     Radio Frequency
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Reverse+Engineering.html" style="margin:0px 8px 8px 0px">
+     Reverse Engineering
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Web+Exploitation.html" style="margin:0px 8px 8px 0px">
+     Web Exploitation
+    </a>
+    <a class="btn-solid btn-solid-warning" href="challenges-category-Welcome.html" style="margin:0px 8px 8px 0px">
+     Welcome
+    </a>
+   </div>
+   <div style="margin-bottom: 8px">
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-35.html">
+       OSINT DISCLAIMER
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       50 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       freebie
+      </span>
+     </div>
+     <p>
+      The challenges this year does not require you to contact anyone. There will be no social media accounts needed to solve these challenges. Please refrain from reaching out to individuals on social media or contacting restaurants to inquire about further details. Such actions are unnecessary and will result in consequences leading to disqualification. Solving this challenge will unlock the rest of the Open-Source Intelligence category
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      flag:
+      <code>
+       irisctf{sp01l_f00d_1s_b4d_mk4y}
+      </code>
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px">
+       <b style="margin-right:8px">
+        By:
+       </b>
+       Lychi
+      </img>
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-29.html">
+       Checking Out of Winter
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       50 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       easy
+      </span>
+     </div>
+     <p>
+      <strong>
+       CHALLENGE'S DISCLAIMER:
+      </strong>
+      Please do not include any accent markings or special characters into the flag. Apply proper capitalization to the flag. Here's an example of the flag
+      <code>
+       irisctf{Iris_Hotel}
+      </code>
+      if there is a special symbol like '&amp;' please type out the word 'and'.
+     </p>
+     <hr/>
+     <p>
+      <br/>
+     </p>
+     <p>
+      We took our annual road trip to Baja California Sur to visit the beach and play some golf. I like how this location is farther from the city compared to other resorts. I really enjoyed the sweet and savory sauce on the pizza with shredded chicken. After eating, I fell asleep, and half of my legs ended up getting tanned.
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      <strong>
+       Question:
+      </strong>
+      Which hotel did Adam stay at?
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+      <a href="https://osint-food-blog-web.chal.irisc.tf/" style="text-decoration:none; margin-right:8px; margin-bottom:8px" target="_blank">
+       <div class="tag tag-inline btn-solid btn-solid-danger btn-solid-link" style="margin-bottom:0px">
+        <img src="/static/img/icons/link.png" style="width:20px; height:20px; margin-right:8px">
+         https://osint-food-blog-web.chal.irisc.tf/
+        </img>
+       </div>
+      </a>
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px">
+       <b style="margin-right:8px">
+        By:
+       </b>
+       Lychi
+      </img>
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-30.html">
+       Sleuths and Sweets
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       50 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       easy
+      </span>
+     </div>
+     <p>
+      <strong>
+       CHALLENGE'S DISCLAIMER:
+      </strong>
+      Here’s an example of the address format
+      <code>
+       irisctf{3_Chome_12_8_Azabu_Minato}
+      </code>
+      .
+Please do not include any accent markings or special characters into the flag. Apply proper capitalization to the flag.
+     </p>
+     <hr/>
+     <p>
+      <br/>
+     </p>
+     <p>
+      I visited my friend in Japan, and we had some alright crepes! The area had a lot of foot traffic, so we expected a long wait, but it was worth it. I’m usually not a fan of yogurt in my crepe, but it still tasted pretty alright.
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      <strong>
+       Question:
+      </strong>
+      What is the address of this location?
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+      <a href="https://osint-food-blog-web.chal.irisc.tf/" style="text-decoration:none; margin-right:8px; margin-bottom:8px" target="_blank">
+       <div class="tag tag-inline btn-solid btn-solid-danger btn-solid-link" style="margin-bottom:0px">
+        <img src="/static/img/icons/link.png" style="width:20px; height:20px; margin-right:8px">
+         https://osint-food-blog-web.chal.irisc.tf/
+        </img>
+       </div>
+      </a>
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px"/>
+      <b style="margin-right:8px">
+       By:
+      </b>
+      Lychi
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-31.html">
+       Not Eelaborate
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       50 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       easy
+      </span>
+     </div>
+     <p>
+      <strong>
+       CHALLENGE'S DISCLAIMER:
+      </strong>
+      Please do not include any accent markings or special characters into the flag. Apply proper capitalization to the flag. Here's an example of the flag
+      <code>
+       irisctf{Restaurant_Name}
+      </code>
+     </p>
+     <hr/>
+     <p>
+      <br/>
+     </p>
+     <p>
+      After my long train ride, I visited a deer park and got to feed the wildlife. There were so many restaurants to choose from but I was craving eel. I really like the soup mixed in with the rice and fish. The wasabi threw me off since I don’t normally have it served this way.
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      I would recommend this place if you want to find a quiet restaurant to eat at, and wouldn’t mind finding a few small fish bones. Eels are known to carry lots of tiny bones it’s inevitable that you’ll find it in a lot of places.
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      <strong>
+       Question:
+      </strong>
+      What is the full name of the restaurant?
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+      <a href="https://osint-food-blog-web.chal.irisc.tf/" style="text-decoration:none; margin-right:8px; margin-bottom:8px" target="_blank">
+       <div class="tag tag-inline btn-solid btn-solid-danger btn-solid-link" style="margin-bottom:0px">
+        <img src="/static/img/icons/link.png" style="width:20px; height:20px; margin-right:8px">
+         https://osint-food-blog-web.chal.irisc.tf/
+        </img>
+       </div>
+      </a>
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px"/>
+      <b style="margin-right:8px">
+       By:
+      </b>
+      Lychi
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-32.html">
+       Late Night Bite
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       50 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       medium
+      </span>
+     </div>
+     <p>
+      <strong>
+       CHALLENGE'S DISCLAIMER:
+      </strong>
+      Please do not include any accent markings or special characters into the flag. Apply proper capitalization to the flag. Here's an example of the flag
+      <code>
+       irisctf{Restaurant_Name}
+      </code>
+     </p>
+     <hr/>
+     <p>
+      <br/>
+     </p>
+     <p>
+      Adam recorded an entry about his favorite hangout spot in his blog, but he hid it on purpose.
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      <strong>
+       Question:
+      </strong>
+      Can you find where his favorite hangout spot is?
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+      <a href="https://osint-food-blog-web.chal.irisc.tf/" style="text-decoration:none; margin-right:8px; margin-bottom:8px" target="_blank">
+       <div class="tag tag-inline btn-solid btn-solid-danger btn-solid-link" style="margin-bottom:0px">
+        <img src="/static/img/icons/link.png" style="width:20px; height:20px; margin-right:8px">
+         https://osint-food-blog-web.chal.irisc.tf/
+        </img>
+       </div>
+      </a>
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px"/>
+      <b style="margin-right:8px">
+       By:
+      </b>
+      Lychi
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-2.html">
+       fuel deal
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       50 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       medium
+      </span>
+     </div>
+     <p>
+      My friend spotted this really good fuel deal for his car, but he won't tell me where he got it. He sent this picture to make me mad and he even blurred out the road signs! Can you find this deal for me?
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      The flag is the address of the gas station, omitting the post code and any symbols including commas, replacing spaces with underscores (_), and with all abbreviations expanded.
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      For example, if the building is located at 1888 Big Eddy Rd (address), Revelstoke (city/suburb), BC (state/territory) V0E 3K0 (post code), Canada (country), the flag would be:
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      <code>
+       irisctf{1888_Big_Eddy_Road_Revelstoke_British_Columbia_Canada}
+      </code>
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+      <a href="https://cdn.2025.irisc.tf/fuel-deal.tar.gz" style="text-decoration:none; margin-right:8px; margin-bottom:8px" target="_blank">
+       <div class="tag tag-inline btn-solid btn-solid-link" style="margin-bottom:0px">
+        <img src="/static/img/icons/package.png" style="width:20px; height:20px; margin-right:8px">
+         fuel-deal.tar.gz
+        </img>
+       </div>
+      </a>
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px"/>
+      <b style="margin-right:8px">
+       By:
+      </b>
+      bobby
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-43.html">
+       where's bobby
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       247 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       medium
+      </span>
+     </div>
+     <p>
+      I took this picture while I was on a road trip. I distinctively remember that there was a body of water along this route, and there weren't many populated areas. Find the route number of the road I was on.
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      The flag is the route number and the 2-character abbreviation of the country it is in, seperated by an underscore (_). For example, if the route was route 23 in British Columbia, Canada, the flag would be
+      <code>
+       irisctf{23_CA}
+      </code>
+      .
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+      <a href="https://cdn.2025.irisc.tf/wheres-bobby.tar.gz" style="text-decoration:none; margin-right:8px; margin-bottom:8px" target="_blank">
+       <div class="tag tag-inline btn-solid btn-solid-link" style="margin-bottom:0px">
+        <img src="/static/img/icons/package.png" style="width:20px; height:20px; margin-right:8px">
+         files
+        </img>
+       </div>
+      </a>
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px"/>
+      <b style="margin-right:8px">
+       By:
+      </b>
+      bobby
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <div class="card-header">
+     <div style="display:flex">
+      <a href="challenge-id-44.html">
+       where's bobby 2
+      </a>
+      <div class="challenge-points">
+       <img src="/static/img/icons/flag.png"/>
+       50 Points
+      </div>
+     </div>
+     <small>
+     </small>
+    </div>
+    <div class="card-content">
+     <div style="margin-top: -4px; display:flex; flex-wrap: wrap">
+      <span class="btn-solid btn-solid-warning" style="margin:0px 8px 8px 0px; background-color: #3333bb;">
+       <img src="/static/img/icons/tag.png" style="width: 16px; padding-right: 4px;"/>
+       medium
+      </span>
+     </div>
+     <p>
+      I took this picture while I was on a trip, somewhere, and I saw this beautiful wall art.
+However, in a shocking turn of events, I don't know where it was! Can you find it for me?
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      The flag is the coordinates of the building which contains this wall art, in decimal format and correct to 3 decimal places, and seperated by an underscore (_).
+     </p>
+     <p>
+      <br/>
+     </p>
+     <p>
+      For example, if the building was located at
+      <code>
+       50°59'52.934"N, 118°13'28.792"W
+      </code>
+      the flag would be
+      <code>
+       irisctf{50.998_-118.225}
+      </code>
+      .
+     </p>
+     <div style="margin-top:8px; display:flex; flex-wrap: wrap">
+      <a href="https://cdn.2025.irisc.tf/wheres-bobby-2.tar.gz" style="text-decoration:none; margin-right:8px; margin-bottom:8px" target="_blank">
+       <div class="tag tag-inline btn-solid btn-solid-link" style="margin-bottom:0px">
+        <img src="/static/img/icons/package.png" style="width:20px; height:20px; margin-right:8px">
+         files
+        </img>
+       </div>
+      </a>
+     </div>
+     <div>
+     </div>
+     <div class="tag tag-inline" style="margin-bottom:0px">
+      <img src="/static/img/icons/user.png" style="width:20px; height:20px; margin-right:8px"/>
+      <b style="margin-right:8px">
+       By:
+      </b>
+      bobby
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="footer">
+   <b>
+    Forked from
+    <a href="https://github.com/Milkdrop/CTFx">
+     CTFx
+    </a>
+   </b>
+   v1.3.0, developed by
+   <a href="https://irissec.xyz/">
+    IrisSec
+   </a>
+   .
+   <br/>
+   CTFx by
+   <a href="https://gitlab.com/Milkdrop">
+    Milkdrop
+   </a>
+   , based on
+   <a href="https://github.com/Nakiami/mellivora">
+    Mellivora
+   </a>
+   .
+   <br/>
+   WebGL version developed by
+   <a href="https://github.com/nesrak1">
+    nope
+   </a>
+   .
+   <a href="/redir-choice-wgl.html">
+    Go to WebGL version
+   </a>
+  </div>
+  <!-- JS -->
+  <audio id="audio-typewriter" src="/static/audio/typewriter.mp3">
+  </audio>
+  <audio id="audio-nav-mouseover" src="/static/audio/nav_mouseover.mp3">
+  </audio>
+  <audio id="audio-nav-click" src="/static/audio/nav_click.mp3">
+  </audio>
+  <audio id="audio-btn-dynamic-mouseover" src="/static/audio/btn_dynamic_mouseover.mp3">
+  </audio>
+  <audio id="audio-btn-dynamic-click" src="/static/audio/btn_dynamic_click.mp3">
+  </audio>
+  <audio id="audio-btn-solid-mouseover" src="/static/audio/btn_solid_mouseover.mp3">
+  </audio>
+  <audio id="audio-btn-solid-click" src="/static/audio/btn_solid_click.mp3">
+  </audio>
+  <audio id="audio-checkbox-click" src="/static/audio/checkbox_click.mp3">
+  </audio>
+  <script src="/static/ctfx.js-v-1.3.0.js" type="text/javascript">
+  </script>
+ </body>
+</html>
