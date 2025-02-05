@@ -26,12 +26,6 @@ async function updateCharts() {
         lasts[submission.user_id] = submission.points;
     }
 
-    for(let i = 0; i < usersList.length; i++) {
-        datasets[i].data.push(
-            {x: new Date(), y: lasts[usersList[i].user_id]}
-        );
-    }
-
     window.graph.data.datasets = datasets;
     window.graph.update();
 }
