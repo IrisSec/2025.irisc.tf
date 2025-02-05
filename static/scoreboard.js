@@ -82,10 +82,7 @@ async function ready() {
     graph.appendChild(ctx);
     graph.style = "display: flex;";
     
-//    let startResp = await fetch("/api?get=start_time");
-    let startResp = 1735948800;
-    let startJson = await startResp.json();
-    let start = startJson["time"];
+    let start = 1735948800;
     window.ctfStart = timestampToPoint(start);
     await updateCharts();
 
